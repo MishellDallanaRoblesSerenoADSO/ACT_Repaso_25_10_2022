@@ -1,29 +1,40 @@
-.img{
-    display: block;
-    margin: 0 auto;
+h3{
+    color: rgb(166, 0, 203);
+    padding: 5px;
+    box-sizing: border-box;
 }
-input[type="text"]{
+label{
+    padding: 2em;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+input [type="text"]{
     display: block;
 }
 input[type="submit"]{
-    display: block;
-    margin-top: 10px;
+    margin: 15px;
+    background-color: rgb(196, 133, 255);
+    border: 3px solid rgb(99, 0, 152);
+}
+table{
+    border: dashed rgb(0, 0, 0);
+    background: rgb(199, 147, 255);
 }
 table thead tr{
-    background: #fe8737;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(80, 33, 237);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 table thead tr th{
     padding: 10px;
 }
 table tbody tr{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 table tbody tr:nth-child(2n+1){
-    background: #ffd9ce;
+    background: hsl(257, 100%, 70%);
 }
 table tbody tr:nth-child(2n){
-    background: #ffeee7;
+    background:hsl(257, 100%, 70%);;
 }
