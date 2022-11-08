@@ -29,7 +29,7 @@ table thead tr th{
     padding: 10px;
 }
 table tbody tr{
-    text-align: center;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 table tbody tr:nth-child(2n+1){
